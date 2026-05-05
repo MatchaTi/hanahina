@@ -1,9 +1,13 @@
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import type { MDXComponents } from 'mdx/types';
+import { TwoColumn, TwoColumnLeft, TwoColumnRight } from './two-column';
 
 export function getMDXComponents(components?: MDXComponents) {
   return {
     ...defaultMdxComponents,
+    TwoColumn,
+    TwoColumnLeft,
+    TwoColumnRight,
     ...components,
   } satisfies MDXComponents;
 }

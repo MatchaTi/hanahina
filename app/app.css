@@ -18,3 +18,7 @@ html > body[data-scroll-locked] {
 @theme {
   --font-architects-daughter: "Architects Daughter", cursive;
 }
+
+.prose p {
+  @apply text-justify indent-4;
+}
