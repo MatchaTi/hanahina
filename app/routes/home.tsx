@@ -6,8 +6,8 @@ import { ArrowRight } from 'lucide-react';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'New React Router App' },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { title: 'Meow Meow Meow' },
+    { name: 'description', content: 'Meow Meow Meow' },
   ];
 }
 
